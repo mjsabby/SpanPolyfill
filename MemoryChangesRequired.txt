@@ -1,0 +1,67 @@
+System.Buffers.cs:26:        System.Memory<T> GetMemory(int sizeHint = 0);
+System.Buffers.cs:31:        System.Memory<T> Memory { get; }
+System.Buffers.cs:51:        public virtual System.Memory<T> Memory { get { throw null; } }
+System.Buffers.cs:52:        protected System.Memory<T> CreateMemory(int length) { throw null; }
+System.Buffers.cs:53:        protected System.Memory<T> CreateMemory(int start, int length) { throw null; }
+System.Buffers.cs:83:        public ReadOnlySequence(System.ReadOnlyMemory<T> memory) { throw null; }
+System.Buffers.cs:87:        public System.ReadOnlyMemory<T> First { get { throw null; } }
+System.Buffers.cs:105:        public bool TryGet(ref System.SequencePosition position, out System.ReadOnlyMemory<T> memory, bool advance = true) { throw null; }
+System.Buffers.cs:111:            public System.ReadOnlyMemory<T> Current { get { throw null; } }
+System.Buffers.cs:118:        public System.ReadOnlyMemory<T> Memory { get { throw null; } protected set { } }
+System.cs:2961:        public static System.Memory<T> Empty { get { throw null; } }
+System.cs:2965:        public void CopyTo(System.Memory<T> destination) { }
+System.cs:2966:        public bool Equals(System.Memory<T> other) { throw null; }
+System.cs:2971:        public static implicit operator System.Memory<T> (System.ArraySegment<T> segment) { throw null; }
+System.cs:2972:        public static implicit operator System.ReadOnlyMemory<T> (System.Memory<T> memory) { throw null; }
+System.cs:2973:        public static implicit operator System.Memory<T> (T[] array) { throw null; }
+System.cs:2975:        public System.Memory<T> Slice(int start) { throw null; }
+System.cs:2976:        public System.Memory<T> Slice(int start, int length) { throw null; }
+System.cs:2979:        public bool TryCopyTo(System.Memory<T> destination) { throw null; }
+System.cs:2983:        public static System.ReadOnlyMemory<char> AsMemory(this string text) { throw null; }
+System.cs:2984:        public static System.ReadOnlyMemory<char> AsMemory(this string text, int start) { throw null; }
+System.cs:2985:        public static System.ReadOnlyMemory<char> AsMemory(this string text, int start, int length) { throw null; }
+System.cs:2986:        public static System.Memory<T> AsMemory<T>(this System.ArraySegment<T> segment) { throw null; }
+System.cs:2987:        public static System.Memory<T> AsMemory<T>(this System.ArraySegment<T> segment, int start) { throw null; }
+System.cs:2988:        public static System.Memory<T> AsMemory<T>(this System.ArraySegment<T> segment, int start, int length) { throw null; }
+System.cs:2989:        public static System.Memory<T> AsMemory<T>(this T[] array) { throw null; }
+System.cs:2990:        public static System.Memory<T> AsMemory<T>(this T[] array, int start) { throw null; }
+System.cs:2991:        public static System.Memory<T> AsMemory<T>(this T[] array, int start, int length) { throw null; }
+System.cs:3009:        public static void CopyTo<T>(this T[] source, System.Memory<T> destination) { }
+System.cs:3350:        public static System.ReadOnlyMemory<T> Empty { get { throw null; } }
+System.cs:3354:        public void CopyTo(System.Memory<T> destination) { }
+System.cs:3357:        public bool Equals(System.ReadOnlyMemory<T> other) { throw null; }
+System.cs:3360:        public static implicit operator System.ReadOnlyMemory<T> (System.ArraySegment<T> segment) { throw null; }
+System.cs:3361:        public static implicit operator System.ReadOnlyMemory<T> (T[] array) { throw null; }
+System.cs:3363:        public System.ReadOnlyMemory<T> Slice(int start) { throw null; }
+System.cs:3364:        public System.ReadOnlyMemory<T> Slice(int start, int length) { throw null; }
+System.cs:3367:        public bool TryCopyTo(System.Memory<T> destination) { throw null; }
+System.IO.cs:654:        public override System.Threading.Tasks.ValueTask<int> ReadAsync(System.Memory<byte> destination, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:663:        public override System.Threading.Tasks.ValueTask WriteAsync(System.ReadOnlyMemory<byte> source, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:783:        public virtual System.Threading.Tasks.ValueTask<int> ReadAsync(System.Memory<byte> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:792:        public virtual System.Threading.Tasks.ValueTask WriteAsync(System.ReadOnlyMemory<byte> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:820:        public override System.Threading.Tasks.ValueTask<int> ReadAsync(System.Memory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:824:        public override System.Threading.Tasks.ValueTask<int> ReadBlockAsync(System.Memory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:856:        public override System.Threading.Tasks.Task WriteAsync(System.ReadOnlyMemory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:862:        public override System.Threading.Tasks.Task WriteLineAsync(System.ReadOnlyMemory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:875:        public override System.Threading.Tasks.ValueTask<int> ReadAsync(System.Memory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:878:        public override System.Threading.Tasks.ValueTask<int> ReadBlockAsync(System.Memory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:902:        public override System.Threading.Tasks.Task WriteAsync(System.ReadOnlyMemory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:907:        public override System.Threading.Tasks.Task WriteLineAsync(System.ReadOnlyMemory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:922:        public virtual System.Threading.Tasks.ValueTask<int> ReadAsync(System.Memory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:926:        public virtual System.Threading.Tasks.ValueTask<int> ReadBlockAsync(System.Memory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:972:        public virtual System.Threading.Tasks.Task WriteAsync(System.ReadOnlyMemory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.IO.cs:999:        public virtual System.Threading.Tasks.Task WriteLineAsync(System.ReadOnlyMemory<char> buffer, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.Net.Http.cs:231:        public ReadOnlyMemoryContent(System.ReadOnlyMemory<byte> content) { }
+System.Net.Security.cs:109:        public System.ReadOnlyMemory<byte> Protocol { get { throw null; } }
+System.Net.Sockets.cs:385:        public System.Memory<byte> MemoryBuffer { get { throw null; } }
+System.Net.Sockets.cs:401:        public void SetBuffer(System.Memory<byte> buffer) { }
+System.Net.Sockets.cs:589:        public static System.Threading.Tasks.ValueTask<int> ReceiveAsync(this System.Net.Sockets.Socket socket, System.Memory<byte> buffer, System.Net.Sockets.SocketFlags socketFlags, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.Net.Sockets.cs:594:        public static System.Threading.Tasks.ValueTask<int> SendAsync(this System.Net.Sockets.Socket socket, System.ReadOnlyMemory<byte> buffer, System.Net.Sockets.SocketFlags socketFlags, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+System.Net.WebSockets.cs:81:        public virtual System.Threading.Tasks.ValueTask<System.Net.WebSockets.ValueWebSocketReceiveResult> ReceiveAsync(System.Memory<byte> buffer, System.Threading.CancellationToken cancellationToken) { throw null; }
+System.Net.WebSockets.cs:85:        public virtual System.Threading.Tasks.ValueTask SendAsync(System.ReadOnlyMemory<byte> buffer, System.Net.WebSockets.WebSocketMessageType messageType, bool endOfMessage, System.Threading.CancellationToken cancellationToken) { throw null; }
+System.Runtime.InteropServices.cs:722:        public static System.Memory<T> AsMemory<T>(System.ReadOnlyMemory<T> memory) { throw null; }
+System.Runtime.InteropServices.cs:725:        public static System.Memory<T> CreateFromPinnedArray<T>(T[] array, int start, int length) { throw null; }
+System.Runtime.InteropServices.cs:731:        public static System.Collections.Generic.IEnumerable<T> ToEnumerable<T>(System.ReadOnlyMemory<T> memory) { throw null; }
+System.Runtime.InteropServices.cs:732:        public static bool TryGetArray<T>(System.ReadOnlyMemory<T> memory, out System.ArraySegment<T> segment) { throw null; }
+System.Runtime.InteropServices.cs:733:        public static bool TryGetString(System.ReadOnlyMemory<char> memory, out string text, out int start, out int length) { throw null; }
+System.Runtime.InteropServices.cs:862:        public static bool TryGetReadOnlyMemory<T>(System.Buffers.ReadOnlySequence<T> sequence, out System.ReadOnlyMemory<T> memory) { throw null; }

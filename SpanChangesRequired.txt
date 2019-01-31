@@ -1,0 +1,436 @@
+System.Buffers.Binary.cs:9:        public static short ReadInt16BigEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:10:        public static short ReadInt16LittleEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:11:        public static int ReadInt32BigEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:12:        public static int ReadInt32LittleEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:13:        public static long ReadInt64BigEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:14:        public static long ReadInt64LittleEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:16:        public static ushort ReadUInt16BigEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:18:        public static ushort ReadUInt16LittleEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:20:        public static uint ReadUInt32BigEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:22:        public static uint ReadUInt32LittleEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:24:        public static ulong ReadUInt64BigEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:26:        public static ulong ReadUInt64LittleEndian(System.ReadOnlySpan<byte> source) { throw null; }
+System.Buffers.Binary.cs:39:        public static bool TryReadInt16BigEndian(System.ReadOnlySpan<byte> source, out short value) { throw null; }
+System.Buffers.Binary.cs:40:        public static bool TryReadInt16LittleEndian(System.ReadOnlySpan<byte> source, out short value) { throw null; }
+System.Buffers.Binary.cs:41:        public static bool TryReadInt32BigEndian(System.ReadOnlySpan<byte> source, out int value) { throw null; }
+System.Buffers.Binary.cs:42:        public static bool TryReadInt32LittleEndian(System.ReadOnlySpan<byte> source, out int value) { throw null; }
+System.Buffers.Binary.cs:43:        public static bool TryReadInt64BigEndian(System.ReadOnlySpan<byte> source, out long value) { throw null; }
+System.Buffers.Binary.cs:44:        public static bool TryReadInt64LittleEndian(System.ReadOnlySpan<byte> source, out long value) { throw null; }
+System.Buffers.Binary.cs:46:        public static bool TryReadUInt16BigEndian(System.ReadOnlySpan<byte> source, out ushort value) { throw null; }
+System.Buffers.Binary.cs:48:        public static bool TryReadUInt16LittleEndian(System.ReadOnlySpan<byte> source, out ushort value) { throw null; }
+System.Buffers.Binary.cs:50:        public static bool TryReadUInt32BigEndian(System.ReadOnlySpan<byte> source, out uint value) { throw null; }
+System.Buffers.Binary.cs:52:        public static bool TryReadUInt32LittleEndian(System.ReadOnlySpan<byte> source, out uint value) { throw null; }
+System.Buffers.Binary.cs:54:        public static bool TryReadUInt64BigEndian(System.ReadOnlySpan<byte> source, out ulong value) { throw null; }
+System.Buffers.Binary.cs:56:        public static bool TryReadUInt64LittleEndian(System.ReadOnlySpan<byte> source, out ulong value) { throw null; }
+System.Buffers.Binary.cs:57:        public static bool TryWriteInt16BigEndian(System.Span<byte> destination, short value) { throw null; }
+System.Buffers.Binary.cs:58:        public static bool TryWriteInt16LittleEndian(System.Span<byte> destination, short value) { throw null; }
+System.Buffers.Binary.cs:59:        public static bool TryWriteInt32BigEndian(System.Span<byte> destination, int value) { throw null; }
+System.Buffers.Binary.cs:60:        public static bool TryWriteInt32LittleEndian(System.Span<byte> destination, int value) { throw null; }
+System.Buffers.Binary.cs:61:        public static bool TryWriteInt64BigEndian(System.Span<byte> destination, long value) { throw null; }
+System.Buffers.Binary.cs:62:        public static bool TryWriteInt64LittleEndian(System.Span<byte> destination, long value) { throw null; }
+System.Buffers.Binary.cs:64:        public static bool TryWriteUInt16BigEndian(System.Span<byte> destination, ushort value) { throw null; }
+System.Buffers.Binary.cs:66:        public static bool TryWriteUInt16LittleEndian(System.Span<byte> destination, ushort value) { throw null; }
+System.Buffers.Binary.cs:68:        public static bool TryWriteUInt32BigEndian(System.Span<byte> destination, uint value) { throw null; }
+System.Buffers.Binary.cs:70:        public static bool TryWriteUInt32LittleEndian(System.Span<byte> destination, uint value) { throw null; }
+System.Buffers.Binary.cs:72:        public static bool TryWriteUInt64BigEndian(System.Span<byte> destination, ulong value) { throw null; }
+System.Buffers.Binary.cs:74:        public static bool TryWriteUInt64LittleEndian(System.Span<byte> destination, ulong value) { throw null; }
+System.Buffers.Binary.cs:75:        public static void WriteInt16BigEndian(System.Span<byte> destination, short value) { }
+System.Buffers.Binary.cs:76:        public static void WriteInt16LittleEndian(System.Span<byte> destination, short value) { }
+System.Buffers.Binary.cs:77:        public static void WriteInt32BigEndian(System.Span<byte> destination, int value) { }
+System.Buffers.Binary.cs:78:        public static void WriteInt32LittleEndian(System.Span<byte> destination, int value) { }
+System.Buffers.Binary.cs:79:        public static void WriteInt64BigEndian(System.Span<byte> destination, long value) { }
+System.Buffers.Binary.cs:80:        public static void WriteInt64LittleEndian(System.Span<byte> destination, long value) { }
+System.Buffers.Binary.cs:82:        public static void WriteUInt16BigEndian(System.Span<byte> destination, ushort value) { }
+System.Buffers.Binary.cs:84:        public static void WriteUInt16LittleEndian(System.Span<byte> destination, ushort value) { }
+System.Buffers.Binary.cs:86:        public static void WriteUInt32BigEndian(System.Span<byte> destination, uint value) { }
+System.Buffers.Binary.cs:88:        public static void WriteUInt32LittleEndian(System.Span<byte> destination, uint value) { }
+System.Buffers.Binary.cs:90:        public static void WriteUInt64BigEndian(System.Span<byte> destination, ulong value) { }
+System.Buffers.Binary.cs:92:        public static void WriteUInt64LittleEndian(System.Span<byte> destination, ulong value) { }
+System.Buffers.cs:18:        public static void CopyTo<T>(this in System.Buffers.ReadOnlySequence<T> source, System.Span<T> destination) { }
+System.Buffers.cs:21:        public static void Write<T>(this System.Buffers.IBufferWriter<T> writer, System.ReadOnlySpan<T> value) { }
+System.Buffers.cs:27:        System.Span<T> GetSpan(int sizeHint = 0);
+System.Buffers.cs:55:        public abstract System.Span<T> GetSpan();
+System.Buffers.cs:122:    public delegate void ReadOnlySpanAction<T, in TArg>(System.ReadOnlySpan<T> span, TArg arg);
+System.Buffers.cs:123:    public delegate void SpanAction<T, in TArg>(System.Span<T> span, TArg arg);
+System.Buffers.cs:140:        public static System.Buffers.StandardFormat Parse(System.ReadOnlySpan<char> format) { throw null; }
+System.Buffers.Text.cs:9:        public static System.Buffers.OperationStatus DecodeFromUtf8(System.ReadOnlySpan<byte> utf8, System.Span<byte> bytes, out int bytesConsumed, out int bytesWritten, bool isFinalBlock = true) { throw null; }
+System.Buffers.Text.cs:10:        public static System.Buffers.OperationStatus DecodeFromUtf8InPlace(System.Span<byte> buffer, out int bytesWritten) { throw null; }
+System.Buffers.Text.cs:11:        public static System.Buffers.OperationStatus EncodeToUtf8(System.ReadOnlySpan<byte> bytes, System.Span<byte> utf8, out int bytesConsumed, out int bytesWritten, bool isFinalBlock = true) { throw null; }
+System.Buffers.Text.cs:12:        public static System.Buffers.OperationStatus EncodeToUtf8InPlace(System.Span<byte> buffer, int dataLength, out int bytesWritten) { throw null; }
+System.Buffers.Text.cs:18:        public static bool TryFormat(bool value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:19:        public static bool TryFormat(byte value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:20:        public static bool TryFormat(System.DateTime value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:21:        public static bool TryFormat(System.DateTimeOffset value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:22:        public static bool TryFormat(decimal value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:23:        public static bool TryFormat(double value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:24:        public static bool TryFormat(System.Guid value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:25:        public static bool TryFormat(short value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:26:        public static bool TryFormat(int value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:27:        public static bool TryFormat(long value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:29:        public static bool TryFormat(sbyte value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:30:        public static bool TryFormat(float value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:31:        public static bool TryFormat(System.TimeSpan value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:33:        public static bool TryFormat(ushort value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:35:        public static bool TryFormat(uint value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:37:        public static bool TryFormat(ulong value, System.Span<byte> destination, out int bytesWritten, System.Buffers.StandardFormat format = default(System.Buffers.StandardFormat)) { throw null; }
+System.Buffers.Text.cs:41:        public static bool TryParse(System.ReadOnlySpan<byte> source, out bool value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:42:        public static bool TryParse(System.ReadOnlySpan<byte> source, out byte value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:43:        public static bool TryParse(System.ReadOnlySpan<byte> source, out System.DateTime value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:44:        public static bool TryParse(System.ReadOnlySpan<byte> source, out System.DateTimeOffset value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:45:        public static bool TryParse(System.ReadOnlySpan<byte> source, out decimal value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:46:        public static bool TryParse(System.ReadOnlySpan<byte> source, out double value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:47:        public static bool TryParse(System.ReadOnlySpan<byte> source, out System.Guid value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:48:        public static bool TryParse(System.ReadOnlySpan<byte> source, out short value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:49:        public static bool TryParse(System.ReadOnlySpan<byte> source, out int value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:50:        public static bool TryParse(System.ReadOnlySpan<byte> source, out long value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:52:        public static bool TryParse(System.ReadOnlySpan<byte> source, out sbyte value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:53:        public static bool TryParse(System.ReadOnlySpan<byte> source, out float value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:54:        public static bool TryParse(System.ReadOnlySpan<byte> source, out System.TimeSpan value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:56:        public static bool TryParse(System.ReadOnlySpan<byte> source, out ushort value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:58:        public static bool TryParse(System.ReadOnlySpan<byte> source, out uint value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.Buffers.Text.cs:60:        public static bool TryParse(System.ReadOnlySpan<byte> source, out ulong value, out int bytesConsumed, char standardFormat = '\0') { throw null; }
+System.cs:594:        public static bool ToBoolean(System.ReadOnlySpan<byte> value) { throw null; }
+System.cs:596:        public static char ToChar(System.ReadOnlySpan<byte> value) { throw null; }
+System.cs:598:        public static double ToDouble(System.ReadOnlySpan<byte> value) { throw null; }
+System.cs:600:        public static short ToInt16(System.ReadOnlySpan<byte> value) { throw null; }
+System.cs:602:        public static int ToInt32(System.ReadOnlySpan<byte> value) { throw null; }
+System.cs:604:        public static long ToInt64(System.ReadOnlySpan<byte> value) { throw null; }
+System.cs:606:        public static float ToSingle(System.ReadOnlySpan<byte> value) { throw null; }
+System.cs:613:        public static ushort ToUInt16(System.ReadOnlySpan<byte> value) { throw null; }
+System.cs:617:        public static uint ToUInt32(System.ReadOnlySpan<byte> value) { throw null; }
+System.cs:621:        public static ulong ToUInt64(System.ReadOnlySpan<byte> value) { throw null; }
+System.cs:622:        public static bool TryWriteBytes(System.Span<byte> destination, bool value) { throw null; }
+System.cs:623:        public static bool TryWriteBytes(System.Span<byte> destination, char value) { throw null; }
+System.cs:624:        public static bool TryWriteBytes(System.Span<byte> destination, double value) { throw null; }
+System.cs:625:        public static bool TryWriteBytes(System.Span<byte> destination, short value) { throw null; }
+System.cs:626:        public static bool TryWriteBytes(System.Span<byte> destination, int value) { throw null; }
+System.cs:627:        public static bool TryWriteBytes(System.Span<byte> destination, long value) { throw null; }
+System.cs:628:        public static bool TryWriteBytes(System.Span<byte> destination, float value) { throw null; }
+System.cs:630:        public static bool TryWriteBytes(System.Span<byte> destination, ushort value) { throw null; }
+System.cs:632:        public static bool TryWriteBytes(System.Span<byte> destination, uint value) { throw null; }
+System.cs:634:        public static bool TryWriteBytes(System.Span<byte> destination, ulong value) { throw null; }
+System.cs:647:        public static System.Boolean Parse(System.ReadOnlySpan<char> value) { throw null; }
+System.cs:666:        public System.Boolean TryFormat(System.Span<char> destination, out int charsWritten) { throw null; }
+System.cs:667:        public static System.Boolean TryParse(System.ReadOnlySpan<char> value, out System.Boolean result) { throw null; }
+System.cs:692:        public static System.Byte Parse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Integer, System.IFormatProvider provider = null) { throw null; }
+System.cs:716:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:717:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.Byte result) { throw null; }
+System.cs:718:        public static bool TryParse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Byte result) { throw null; }
+System.cs:1145:        public static string ToBase64String(System.ReadOnlySpan<byte> bytes, System.Base64FormattingOptions options = System.Base64FormattingOptions.None) { throw null; }
+System.cs:1566:        public static bool TryFromBase64Chars(System.ReadOnlySpan<char> chars, System.Span<byte> bytes, out int bytesWritten) { throw null; }
+System.cs:1567:        public static bool TryFromBase64String(string s, System.Span<byte> bytes, out int bytesWritten) { throw null; }
+System.cs:1568:        public static bool TryToBase64Chars(System.ReadOnlySpan<byte> bytes, System.Span<char> chars, out int charsWritten, System.Base64FormattingOptions options = System.Base64FormattingOptions.None) { throw null; }
+System.cs:1647:        public static System.DateTime Parse(System.ReadOnlySpan<char> s, System.IFormatProvider provider = null, System.Globalization.DateTimeStyles styles = System.Globalization.DateTimeStyles.None) { throw null; }
+System.cs:1651:        public static System.DateTime ParseExact(System.ReadOnlySpan<char> s, System.ReadOnlySpan<char> format, System.IFormatProvider provider, System.Globalization.DateTimeStyles style = System.Globalization.DateTimeStyles.None) { throw null; }
+System.cs:1652:        public static System.DateTime ParseExact(System.ReadOnlySpan<char> s, string[] formats, System.IFormatProvider provider, System.Globalization.DateTimeStyles style = System.Globalization.DateTimeStyles.None) { throw null; }
+System.cs:1689:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:1690:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.DateTime result) { throw null; }
+System.cs:1691:        public static bool TryParse(System.ReadOnlySpan<char> s, System.IFormatProvider provider, System.Globalization.DateTimeStyles styles, out System.DateTime result) { throw null; }
+System.cs:1694:        public static bool TryParseExact(System.ReadOnlySpan<char> s, System.ReadOnlySpan<char> format, System.IFormatProvider provider, System.Globalization.DateTimeStyles style, out System.DateTime result) { throw null; }
+System.cs:1695:        public static bool TryParseExact(System.ReadOnlySpan<char> s, string[] formats, System.IFormatProvider provider, System.Globalization.DateTimeStyles style, out System.DateTime result) { throw null; }
+System.cs:1765:        public static System.DateTimeOffset Parse(System.ReadOnlySpan<char> input, System.IFormatProvider formatProvider = null, System.Globalization.DateTimeStyles styles = System.Globalization.DateTimeStyles.None) { throw null; }
+System.cs:1769:        public static System.DateTimeOffset ParseExact(System.ReadOnlySpan<char> input, System.ReadOnlySpan<char> format, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles = System.Globalization.DateTimeStyles.None) { throw null; }
+System.cs:1770:        public static System.DateTimeOffset ParseExact(System.ReadOnlySpan<char> input, string[] formats, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles = System.Globalization.DateTimeStyles.None) { throw null; }
+System.cs:1789:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider formatProvider = null) { throw null; }
+System.cs:1790:        public static bool TryParse(System.ReadOnlySpan<char> input, out System.DateTimeOffset result) { throw null; }
+System.cs:1791:        public static bool TryParse(System.ReadOnlySpan<char> input, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles, out System.DateTimeOffset result) { throw null; }
+System.cs:1794:        public static bool TryParseExact(System.ReadOnlySpan<char> input, System.ReadOnlySpan<char> format, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles, out System.DateTimeOffset result) { throw null; }
+System.cs:1795:        public static bool TryParseExact(System.ReadOnlySpan<char> input, string[] formats, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles, out System.DateTimeOffset result) { throw null; }
+System.cs:1917:        public static System.Decimal Parse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Number, System.IFormatProvider provider = null) { throw null; }
+System.cs:1964:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:1965:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.Decimal result) { throw null; }
+System.cs:1966:        public static bool TryParse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Decimal result) { throw null; }
+System.cs:2046:        public static System.Double Parse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.AllowDecimalPoint | System.Globalization.NumberStyles.AllowExponent | System.Globalization.NumberStyles.AllowLeadingSign | System.Globalization.NumberStyles.AllowLeadingWhite | System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.AllowTrailingWhite, System.IFormatProvider provider = null) { throw null; }
+System.cs:2070:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:2071:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.Double result) { throw null; }
+System.cs:2072:        public static bool TryParse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Double result) { throw null; }
+System.cs:2413:        public Guid(System.ReadOnlySpan<byte> b) { throw null; }
+System.cs:2425:        public static System.Guid Parse(System.ReadOnlySpan<char> input) { throw null; }
+System.cs:2427:        public static System.Guid ParseExact(System.ReadOnlySpan<char> input, System.ReadOnlySpan<char> format) { throw null; }
+System.cs:2433:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>)) { throw null; }
+System.cs:2434:        public static bool TryParse(System.ReadOnlySpan<char> input, out System.Guid result) { throw null; }
+System.cs:2436:        public static bool TryParseExact(System.ReadOnlySpan<char> input, System.ReadOnlySpan<char> format, out System.Guid result) { throw null; }
+System.cs:2438:        public bool TryWriteBytes(System.Span<byte> destination) { throw null; }
+System.cs:2558:        public static System.Int16 Parse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Integer, System.IFormatProvider provider = null) { throw null; }
+System.cs:2582:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:2583:        public static bool TryParse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Int16 result) { throw null; }
+System.cs:2584:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.Int16 result) { throw null; }
+System.cs:2599:        public static System.Int32 Parse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Integer, System.IFormatProvider provider = null) { throw null; }
+System.cs:2623:        public bool TryFormat(System.Span<char> destination, out System.Int32 charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:2624:        public static bool TryParse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Int32 result) { throw null; }
+System.cs:2625:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.Int32 result) { throw null; }
+System.cs:2640:        public static System.Int64 Parse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Integer, System.IFormatProvider provider = null) { throw null; }
+System.cs:2664:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:2665:        public static bool TryParse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Int64 result) { throw null; }
+System.cs:2666:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.Int64 result) { throw null; }
+System.cs:2964:        public System.Span<T> Span { get { throw null; } }
+System.cs:2992:        public static System.ReadOnlySpan<char> AsSpan(this string text) { throw null; }
+System.cs:2993:        public static System.ReadOnlySpan<char> AsSpan(this string text, int start) { throw null; }
+System.cs:2994:        public static System.ReadOnlySpan<char> AsSpan(this string text, int start, int length) { throw null; }
+System.cs:2995:        public static System.Span<T> AsSpan<T>(this System.ArraySegment<T> segment) { throw null; }
+System.cs:2996:        public static System.Span<T> AsSpan<T>(this System.ArraySegment<T> segment, int start) { throw null; }
+System.cs:2997:        public static System.Span<T> AsSpan<T>(this System.ArraySegment<T> segment, int start, int length) { throw null; }
+System.cs:2998:        public static System.Span<T> AsSpan<T>(this T[] array) { throw null; }
+System.cs:2999:        public static System.Span<T> AsSpan<T>(this T[] array, int start) { throw null; }
+System.cs:3000:        public static System.Span<T> AsSpan<T>(this T[] array, int start, int length) { throw null; }
+System.cs:3001:        public static int BinarySearch<T>(this System.ReadOnlySpan<T> span, System.IComparable<T> comparable) { throw null; }
+System.cs:3002:        public static int BinarySearch<T>(this System.Span<T> span, System.IComparable<T> comparable) { throw null; }
+System.cs:3003:        public static int BinarySearch<T, TComparer>(this System.ReadOnlySpan<T> span, T value, TComparer comparer) where TComparer : System.Collections.Generic.IComparer<T> { throw null; }
+System.cs:3004:        public static int BinarySearch<T, TComparable>(this System.ReadOnlySpan<T> span, TComparable comparable) where TComparable : System.IComparable<T> { throw null; }
+System.cs:3005:        public static int BinarySearch<T, TComparer>(this System.Span<T> span, T value, TComparer comparer) where TComparer : System.Collections.Generic.IComparer<T> { throw null; }
+System.cs:3006:        public static int BinarySearch<T, TComparable>(this System.Span<T> span, TComparable comparable) where TComparable : System.IComparable<T> { throw null; }
+System.cs:3007:        public static int CompareTo(this System.ReadOnlySpan<char> span, System.ReadOnlySpan<char> other, System.StringComparison comparisonType) { throw null; }
+System.cs:3008:        public static bool Contains(this System.ReadOnlySpan<char> span, System.ReadOnlySpan<char> value, System.StringComparison comparisonType) { throw null; }
+System.cs:3010:        public static void CopyTo<T>(this T[] source, System.Span<T> destination) { }
+System.cs:3011:        public static bool EndsWith(this System.ReadOnlySpan<char> span, System.ReadOnlySpan<char> value, System.StringComparison comparisonType) { throw null; }
+System.cs:3012:        public static bool EndsWith<T>(this System.ReadOnlySpan<T> span, System.ReadOnlySpan<T> value) where T : System.IEquatable<T> { throw null; }
+System.cs:3013:        public static bool EndsWith<T>(this System.Span<T> span, System.ReadOnlySpan<T> value) where T : System.IEquatable<T> { throw null; }
+System.cs:3014:        public static bool Equals(this System.ReadOnlySpan<char> span, System.ReadOnlySpan<char> other, System.StringComparison comparisonType) { throw null; }
+System.cs:3015:        public static int IndexOf(this System.ReadOnlySpan<char> span, System.ReadOnlySpan<char> value, System.StringComparison comparisonType) { throw null; }
+System.cs:3016:        public static int IndexOfAny<T>(this System.ReadOnlySpan<T> span, System.ReadOnlySpan<T> values) where T : System.IEquatable<T> { throw null; }
+System.cs:3017:        public static int IndexOfAny<T>(this System.ReadOnlySpan<T> span, T value0, T value1) where T : System.IEquatable<T> { throw null; }
+System.cs:3018:        public static int IndexOfAny<T>(this System.ReadOnlySpan<T> span, T value0, T value1, T value2) where T : System.IEquatable<T> { throw null; }
+System.cs:3019:        public static int IndexOfAny<T>(this System.Span<T> span, System.ReadOnlySpan<T> values) where T : System.IEquatable<T> { throw null; }
+System.cs:3020:        public static int IndexOfAny<T>(this System.Span<T> span, T value0, T value1) where T : System.IEquatable<T> { throw null; }
+System.cs:3021:        public static int IndexOfAny<T>(this System.Span<T> span, T value0, T value1, T value2) where T : System.IEquatable<T> { throw null; }
+System.cs:3022:        public static int IndexOf<T>(this System.ReadOnlySpan<T> span, System.ReadOnlySpan<T> value) where T : System.IEquatable<T> { throw null; }
+System.cs:3023:        public static int IndexOf<T>(this System.ReadOnlySpan<T> span, T value) where T : System.IEquatable<T> { throw null; }
+System.cs:3024:        public static int IndexOf<T>(this System.Span<T> span, System.ReadOnlySpan<T> value) where T : System.IEquatable<T> { throw null; }
+System.cs:3025:        public static int IndexOf<T>(this System.Span<T> span, T value) where T : System.IEquatable<T> { throw null; }
+System.cs:3026:        public static bool IsWhiteSpace(this System.ReadOnlySpan<char> span) { throw null; }
+System.cs:3027:        public static int LastIndexOfAny<T>(this System.ReadOnlySpan<T> span, System.ReadOnlySpan<T> values) where T : System.IEquatable<T> { throw null; }
+System.cs:3028:        public static int LastIndexOfAny<T>(this System.ReadOnlySpan<T> span, T value0, T value1) where T : System.IEquatable<T> { throw null; }
+System.cs:3029:        public static int LastIndexOfAny<T>(this System.ReadOnlySpan<T> span, T value0, T value1, T value2) where T : System.IEquatable<T> { throw null; }
+System.cs:3030:        public static int LastIndexOfAny<T>(this System.Span<T> span, System.ReadOnlySpan<T> values) where T : System.IEquatable<T> { throw null; }
+System.cs:3031:        public static int LastIndexOfAny<T>(this System.Span<T> span, T value0, T value1) where T : System.IEquatable<T> { throw null; }
+System.cs:3032:        public static int LastIndexOfAny<T>(this System.Span<T> span, T value0, T value1, T value2) where T : System.IEquatable<T> { throw null; }
+System.cs:3033:        public static int LastIndexOf<T>(this System.ReadOnlySpan<T> span, System.ReadOnlySpan<T> value) where T : System.IEquatable<T> { throw null; }
+System.cs:3034:        public static int LastIndexOf<T>(this System.ReadOnlySpan<T> span, T value) where T : System.IEquatable<T> { throw null; }
+System.cs:3035:        public static int LastIndexOf<T>(this System.Span<T> span, System.ReadOnlySpan<T> value) where T : System.IEquatable<T> { throw null; }
+System.cs:3036:        public static int LastIndexOf<T>(this System.Span<T> span, T value) where T : System.IEquatable<T> { throw null; }
+System.cs:3037:        public static bool Overlaps<T>(this System.ReadOnlySpan<T> span, System.ReadOnlySpan<T> other) { throw null; }
+System.cs:3038:        public static bool Overlaps<T>(this System.ReadOnlySpan<T> span, System.ReadOnlySpan<T> other, out int elementOffset) { throw null; }
+System.cs:3039:        public static bool Overlaps<T>(this System.Span<T> span, System.ReadOnlySpan<T> other) { throw null; }
+System.cs:3040:        public static bool Overlaps<T>(this System.Span<T> span, System.ReadOnlySpan<T> other, out int elementOffset) { throw null; }
+System.cs:3041:        public static void Reverse<T>(this System.Span<T> span) { }
+System.cs:3042:        public static int SequenceCompareTo<T>(this System.ReadOnlySpan<T> span, System.ReadOnlySpan<T> other) where T : System.IComparable<T> { throw null; }
+System.cs:3043:        public static int SequenceCompareTo<T>(this System.Span<T> span, System.ReadOnlySpan<T> other) where T : System.IComparable<T> { throw null; }
+System.cs:3044:        public static bool SequenceEqual<T>(this System.ReadOnlySpan<T> span, System.ReadOnlySpan<T> other) where T : System.IEquatable<T> { throw null; }
+System.cs:3045:        public static bool SequenceEqual<T>(this System.Span<T> span, System.ReadOnlySpan<T> other) where T : System.IEquatable<T> { throw null; }
+System.cs:3046:        public static bool StartsWith(this System.ReadOnlySpan<char> span, System.ReadOnlySpan<char> value, System.StringComparison comparisonType) { throw null; }
+System.cs:3047:        public static bool StartsWith<T>(this System.ReadOnlySpan<T> span, System.ReadOnlySpan<T> value) where T : System.IEquatable<T> { throw null; }
+System.cs:3048:        public static bool StartsWith<T>(this System.Span<T> span, System.ReadOnlySpan<T> value) where T : System.IEquatable<T> { throw null; }
+System.cs:3049:        public static int ToLower(this System.ReadOnlySpan<char> source, System.Span<char> destination, System.Globalization.CultureInfo culture) { throw null; }
+System.cs:3050:        public static int ToLowerInvariant(this System.ReadOnlySpan<char> source, System.Span<char> destination) { throw null; }
+System.cs:3051:        public static int ToUpper(this System.ReadOnlySpan<char> source, System.Span<char> destination, System.Globalization.CultureInfo culture) { throw null; }
+System.cs:3052:        public static int ToUpperInvariant(this System.ReadOnlySpan<char> source, System.Span<char> destination) { throw null; }
+System.cs:3053:        public static System.ReadOnlySpan<char> Trim(this System.ReadOnlySpan<char> span) { throw null; }
+System.cs:3054:        public static System.ReadOnlySpan<char> Trim(this System.ReadOnlySpan<char> span, char trimChar) { throw null; }
+System.cs:3055:        public static System.ReadOnlySpan<char> Trim(this System.ReadOnlySpan<char> span, System.ReadOnlySpan<char> trimChars) { throw null; }
+System.cs:3056:        public static System.ReadOnlySpan<char> TrimEnd(this System.ReadOnlySpan<char> span) { throw null; }
+System.cs:3057:        public static System.ReadOnlySpan<char> TrimEnd(this System.ReadOnlySpan<char> span, char trimChar) { throw null; }
+System.cs:3058:        public static System.ReadOnlySpan<char> TrimEnd(this System.ReadOnlySpan<char> span, System.ReadOnlySpan<char> trimChars) { throw null; }
+System.cs:3059:        public static System.ReadOnlySpan<char> TrimStart(this System.ReadOnlySpan<char> span) { throw null; }
+System.cs:3060:        public static System.ReadOnlySpan<char> TrimStart(this System.ReadOnlySpan<char> span, char trimChar) { throw null; }
+System.cs:3061:        public static System.ReadOnlySpan<char> TrimStart(this System.ReadOnlySpan<char> span, System.ReadOnlySpan<char> trimChars) { throw null; }
+System.cs:3333:        public virtual void NextBytes(System.Span<byte> buffer) { }
+System.cs:3353:        public System.ReadOnlySpan<T> Span { get { throw null; } }
+System.cs:3377:        public static System.ReadOnlySpan<T> Empty { get { throw null; } }
+System.cs:3381:        public void CopyTo(System.Span<T> destination) { }
+System.cs:3385:        public System.ReadOnlySpan<T>.Enumerator GetEnumerator() { throw null; }
+System.cs:3391:        public static bool operator ==(System.ReadOnlySpan<T> left, System.ReadOnlySpan<T> right) { throw null; }
+System.cs:3392:        public static implicit operator System.ReadOnlySpan<T> (System.ArraySegment<T> segment) { throw null; }
+System.cs:3393:        public static implicit operator System.ReadOnlySpan<T> (T[] array) { throw null; }
+System.cs:3394:        public static bool operator !=(System.ReadOnlySpan<T> left, System.ReadOnlySpan<T> right) { throw null; }
+System.cs:3395:        public System.ReadOnlySpan<T> Slice(int start) { throw null; }
+System.cs:3396:        public System.ReadOnlySpan<T> Slice(int start, int length) { throw null; }
+System.cs:3399:        public bool TryCopyTo(System.Span<T> destination) { throw null; }
+System.cs:3471:        public static System.SByte Parse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Integer, System.IFormatProvider provider = null) { throw null; }
+System.cs:3499:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:3501:        public static bool TryParse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.SByte result) { throw null; }
+System.cs:3503:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.SByte result) { throw null; }
+System.cs:3558:        public static System.Single Parse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.AllowDecimalPoint | System.Globalization.NumberStyles.AllowExponent | System.Globalization.NumberStyles.AllowLeadingSign | System.Globalization.NumberStyles.AllowLeadingWhite | System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.AllowTrailingWhite, System.IFormatProvider provider = null) { throw null; }
+System.cs:3582:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:3583:        public static bool TryParse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Single result) { throw null; }
+System.cs:3584:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.Single result) { throw null; }
+System.cs:3596:        public static System.Span<T> Empty { get { throw null; } }
+System.cs:3601:        public void CopyTo(System.Span<T> destination) { }
+System.cs:3606:        public System.Span<T>.Enumerator GetEnumerator() { throw null; }
+System.cs:3612:        public static bool operator ==(System.Span<T> left, System.Span<T> right) { throw null; }
+System.cs:3613:        public static implicit operator System.Span<T> (System.ArraySegment<T> segment) { throw null; }
+System.cs:3614:        public static implicit operator System.ReadOnlySpan<T> (System.Span<T> span) { throw null; }
+System.cs:3615:        public static implicit operator System.Span<T> (T[] array) { throw null; }
+System.cs:3616:        public static bool operator !=(System.Span<T> left, System.Span<T> right) { throw null; }
+System.cs:3617:        public System.Span<T> Slice(int start) { throw null; }
+System.cs:3618:        public System.Span<T> Slice(int start, int length) { throw null; }
+System.cs:3621:        public bool TryCopyTo(System.Span<T> destination) { throw null; }
+System.cs:3651:        public String(System.ReadOnlySpan<char> value) { }
+System.cs:3758:        public static implicit operator System.ReadOnlySpan<char> (System.String value) { throw null; }
+System.cs:3945:        public static System.TimeSpan Parse(System.ReadOnlySpan<char> input, System.IFormatProvider formatProvider = null) { throw null; }
+System.cs:3948:        public static System.TimeSpan ParseExact(System.ReadOnlySpan<char> input, System.ReadOnlySpan<char> format, System.IFormatProvider formatProvider, System.Globalization.TimeSpanStyles styles = System.Globalization.TimeSpanStyles.None) { throw null; }
+System.cs:3949:        public static System.TimeSpan ParseExact(System.ReadOnlySpan<char> input, string[] formats, System.IFormatProvider formatProvider, System.Globalization.TimeSpanStyles styles = System.Globalization.TimeSpanStyles.None) { throw null; }
+System.cs:3958:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider formatProvider = null) { throw null; }
+System.cs:3959:        public static bool TryParse(System.ReadOnlySpan<char> input, System.IFormatProvider formatProvider, out System.TimeSpan result) { throw null; }
+System.cs:3960:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.TimeSpan result) { throw null; }
+System.cs:3963:        public static bool TryParseExact(System.ReadOnlySpan<char> input, System.ReadOnlySpan<char> format, System.IFormatProvider formatProvider, System.Globalization.TimeSpanStyles styles, out System.TimeSpan result) { throw null; }
+System.cs:3964:        public static bool TryParseExact(System.ReadOnlySpan<char> input, System.ReadOnlySpan<char> format, System.IFormatProvider formatProvider, out System.TimeSpan result) { throw null; }
+System.cs:3965:        public static bool TryParseExact(System.ReadOnlySpan<char> input, string[] formats, System.IFormatProvider formatProvider, System.Globalization.TimeSpanStyles styles, out System.TimeSpan result) { throw null; }
+System.cs:3966:        public static bool TryParseExact(System.ReadOnlySpan<char> input, string[] formats, System.IFormatProvider formatProvider, out System.TimeSpan result) { throw null; }
+System.cs:4580:        public static System.UInt16 Parse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Integer, System.IFormatProvider provider = null) { throw null; }
+System.cs:4608:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:4610:        public static bool TryParse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.UInt16 result) { throw null; }
+System.cs:4612:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.UInt16 result) { throw null; }
+System.cs:4631:        public static System.UInt32 Parse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Integer, System.IFormatProvider provider = null) { throw null; }
+System.cs:4659:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:4661:        public static bool TryParse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.UInt32 result) { throw null; }
+System.cs:4663:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.UInt32 result) { throw null; }
+System.cs:4682:        public static System.UInt64 Parse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Integer, System.IFormatProvider provider = null) { throw null; }
+System.cs:4710:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.cs:4712:        public static bool TryParse(System.ReadOnlySpan<char> s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.UInt64 result) { throw null; }
+System.cs:4714:        public static bool TryParse(System.ReadOnlySpan<char> s, out System.UInt64 result) { throw null; }
+System.cs:5171:        public static System.Version Parse(System.ReadOnlySpan<char> input) { throw null; }
+System.cs:5175:        public bool TryFormat(System.Span<char> destination, int fieldCount, out int charsWritten) { throw null; }
+System.cs:5176:        public bool TryFormat(System.Span<char> destination, out int charsWritten) { throw null; }
+System.cs:5177:        public static bool TryParse(System.ReadOnlySpan<char> input, out System.Version result) { throw null; }
+System.IO.Compression.cs:9:        public System.Buffers.OperationStatus Decompress(System.ReadOnlySpan<byte> source, System.Span<byte> destination, out int bytesConsumed, out int bytesWritten) { throw null; }
+System.IO.Compression.cs:11:        public static bool TryDecompress(System.ReadOnlySpan<byte> source, System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.IO.Compression.cs:16:        public System.Buffers.OperationStatus Compress(System.ReadOnlySpan<byte> source, System.Span<byte> destination, out int bytesConsumed, out int bytesWritten, bool isFinalBlock) { throw null; }
+System.IO.Compression.cs:18:        public System.Buffers.OperationStatus Flush(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.IO.Compression.cs:20:        public static bool TryCompress(System.ReadOnlySpan<byte> source, System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.IO.Compression.cs:21:        public static bool TryCompress(System.ReadOnlySpan<byte> source, System.Span<byte> destination, out int bytesWritten, int quality, int window) { throw null; }
+System.IO.cs:21:        public virtual int Read(System.Span<byte> buffer) { throw null; }
+System.IO.cs:22:        public virtual int Read(System.Span<char> buffer) { throw null; }
+System.IO.cs:72:        public virtual void Write(System.ReadOnlySpan<byte> buffer) { }
+System.IO.cs:73:        public virtual void Write(System.ReadOnlySpan<char> chars) { }
+System.IO.cs:652:        public override int Read(System.Span<byte> destination) { throw null; }
+System.IO.cs:661:        public override void Write(System.ReadOnlySpan<byte> source) { }
+System.IO.cs:692:        public static System.ReadOnlySpan<char> GetDirectoryName(System.ReadOnlySpan<char> path) { throw null; }
+System.IO.cs:694:        public static System.ReadOnlySpan<char> GetExtension(System.ReadOnlySpan<char> path) { throw null; }
+System.IO.cs:696:        public static System.ReadOnlySpan<char> GetFileName(System.ReadOnlySpan<char> path) { throw null; }
+System.IO.cs:698:        public static System.ReadOnlySpan<char> GetFileNameWithoutExtension(System.ReadOnlySpan<char> path) { throw null; }
+System.IO.cs:704:        public static System.ReadOnlySpan<char> GetPathRoot(System.ReadOnlySpan<char> path) { throw null; }
+System.IO.cs:710:        public static bool HasExtension(System.ReadOnlySpan<char> path) { throw null; }
+System.IO.cs:712:        public static bool IsPathFullyQualified(System.ReadOnlySpan<char> path) { throw null; }
+System.IO.cs:714:        public static bool IsPathRooted(System.ReadOnlySpan<char> path) { throw null; }
+System.IO.cs:716:        public static string Join(System.ReadOnlySpan<char> path1, System.ReadOnlySpan<char> path2) { throw null; }
+System.IO.cs:717:        public static string Join(System.ReadOnlySpan<char> path1, System.ReadOnlySpan<char> path2, System.ReadOnlySpan<char> path3) { throw null; }
+System.IO.cs:718:        public static bool TryJoin(System.ReadOnlySpan<char> path1, System.ReadOnlySpan<char> path2, System.ReadOnlySpan<char> path3, System.Span<char> destination, out int charsWritten) { throw null; }
+System.IO.cs:719:        public static bool TryJoin(System.ReadOnlySpan<char> path1, System.ReadOnlySpan<char> path2, System.Span<char> destination, out int charsWritten) { throw null; }
+System.IO.cs:780:        public virtual int Read(System.Span<byte> buffer) { throw null; }
+System.IO.cs:789:        public virtual void Write(System.ReadOnlySpan<byte> buffer) { }
+System.IO.cs:818:        public override int Read(System.Span<char> buffer) { throw null; }
+System.IO.cs:822:        public override int ReadBlock(System.Span<char> buffer) { throw null; }
+System.IO.cs:852:        public override void Write(System.ReadOnlySpan<char> buffer) { }
+System.IO.cs:858:        public override void WriteLine(System.ReadOnlySpan<char> buffer) { }
+System.IO.cs:873:        public override int Read(System.Span<char> buffer) { throw null; }
+System.IO.cs:876:        public override int ReadBlock(System.Span<char> buffer) { throw null; }
+System.IO.cs:898:        public override void Write(System.ReadOnlySpan<char> buffer) { }
+System.IO.cs:904:        public override void WriteLine(System.ReadOnlySpan<char> buffer) { }
+System.IO.cs:920:        public virtual int Read(System.Span<char> buffer) { throw null; }
+System.IO.cs:924:        public virtual int ReadBlock(System.Span<char> buffer) { throw null; }
+System.IO.cs:958:        public virtual void Write(System.ReadOnlySpan<char> buffer) { }
+System.IO.cs:984:        public virtual void WriteLine(System.ReadOnlySpan<char> buffer) { }
+System.IO.cs:1077:        public override int Read(System.Span<byte> destination) { throw null; }
+System.IO.cs:1083:        public override void Write(System.ReadOnlySpan<byte> source) { }
+System.IO.Enumeration.cs:7:        public System.ReadOnlySpan<char> Directory { get { throw null; } }
+System.IO.Enumeration.cs:8:        public System.ReadOnlySpan<char> FileName { get { throw null; } }
+System.IO.Enumeration.cs:14:        public System.ReadOnlySpan<char> OriginalRootDirectory { get { throw null; } }
+System.IO.Enumeration.cs:15:        public System.ReadOnlySpan<char> RootDirectory { get { throw null; } }
+System.IO.Enumeration.cs:39:        protected virtual void OnDirectoryFinished(System.ReadOnlySpan<char> directory) { }
+System.IO.Enumeration.cs:47:        public static bool MatchesSimpleExpression(System.ReadOnlySpan<char> expression, System.ReadOnlySpan<char> name, bool ignoreCase = true) { throw null; }
+System.IO.Enumeration.cs:48:        public static bool MatchesWin32Expression(System.ReadOnlySpan<char> expression, System.ReadOnlySpan<char> name, bool ignoreCase = true) { throw null; }
+System.Net.cs:756:        public IPAddress(System.ReadOnlySpan<byte> address) { }
+System.Net.cs:757:        public IPAddress(System.ReadOnlySpan<byte> address, long scopeid) { }
+System.Net.cs:779:        public static System.Net.IPAddress Parse(System.ReadOnlySpan<char> ipString) { throw null; }
+System.Net.cs:782:        public bool TryFormat(System.Span<char> destination, out int charsWritten) { throw null; }
+System.Net.cs:783:        public static bool TryParse(System.ReadOnlySpan<char> ipString, out System.Net.IPAddress address) { throw null; }
+System.Net.cs:785:        public bool TryWriteBytes(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Net.Sockets.cs:334:        public int Receive(System.Span<byte> buffer) { throw null; }
+System.Net.Sockets.cs:335:        public int Receive(System.Span<byte> buffer, System.Net.Sockets.SocketFlags socketFlags) { throw null; }
+System.Net.Sockets.cs:336:        public int Receive(System.Span<byte> buffer, System.Net.Sockets.SocketFlags socketFlags, out System.Net.Sockets.SocketError errorCode) { throw null; }
+System.Net.Sockets.cs:354:        public int Send(System.ReadOnlySpan<byte> buffer) { throw null; }
+System.Net.Sockets.cs:355:        public int Send(System.ReadOnlySpan<byte> buffer, System.Net.Sockets.SocketFlags socketFlags) { throw null; }
+System.Net.Sockets.cs:356:        public int Send(System.ReadOnlySpan<byte> buffer, System.Net.Sockets.SocketFlags socketFlags, out System.Net.Sockets.SocketError errorCode) { throw null; }
+System.Numerics.cs:16:        public BigInteger(System.ReadOnlySpan<byte> value, bool isUnsigned = false, bool isBigEndian = false) { throw null; }
+System.Numerics.cs:143:        public static System.Numerics.BigInteger Parse(System.ReadOnlySpan<char> value, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Integer, System.IFormatProvider provider = null) { throw null; }
+System.Numerics.cs:157:        public bool TryFormat(System.Span<char> destination, out int charsWritten, System.ReadOnlySpan<char> format = default(System.ReadOnlySpan<char>), System.IFormatProvider provider = null) { throw null; }
+System.Numerics.cs:158:        public static bool TryParse(System.ReadOnlySpan<char> value, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Numerics.BigInteger result) { throw null; }
+System.Numerics.cs:159:        public static bool TryParse(System.ReadOnlySpan<char> value, out System.Numerics.BigInteger result) { throw null; }
+System.Numerics.cs:162:        public bool TryWriteBytes(System.Span<byte> destination, out int bytesWritten, bool isUnsigned = false, bool isBigEndian = false) { throw null; }
+System.Numerics.cs:521:        public Vector(System.Span<T> values) { throw null; }
+System.Runtime.InteropServices.cs:720:        public static System.ReadOnlySpan<byte> AsBytes<T>(System.ReadOnlySpan<T> span) where T : struct { throw null; }
+System.Runtime.InteropServices.cs:721:        public static System.Span<byte> AsBytes<T>(System.Span<T> span) where T : struct { throw null; }
+System.Runtime.InteropServices.cs:723:        public static System.ReadOnlySpan<TTo> Cast<TFrom, TTo>(System.ReadOnlySpan<TFrom> span) where TFrom : struct where TTo : struct { throw null; }
+System.Runtime.InteropServices.cs:724:        public static System.Span<TTo> Cast<TFrom, TTo>(System.Span<TFrom> span) where TFrom : struct where TTo : struct { throw null; }
+System.Runtime.InteropServices.cs:726:        public static System.ReadOnlySpan<T> CreateReadOnlySpan<T>(ref T reference, int length) { throw null; }
+System.Runtime.InteropServices.cs:727:        public static System.Span<T> CreateSpan<T>(ref T reference, int length) { throw null; }
+System.Runtime.InteropServices.cs:728:        public static ref T GetReference<T>(System.ReadOnlySpan<T> span) { throw null; }
+System.Runtime.InteropServices.cs:729:        public static ref T GetReference<T>(System.Span<T> span) { throw null; }
+System.Runtime.InteropServices.cs:730:        public static T Read<T>(System.ReadOnlySpan<byte> source) where T : struct { throw null; }
+System.Runtime.InteropServices.cs:734:        public static bool TryRead<T>(System.ReadOnlySpan<byte> source, out T value) where T : struct { throw null; }
+System.Runtime.InteropServices.cs:735:        public static bool TryWrite<T>(System.Span<byte> destination, ref T value) where T : struct { throw null; }
+System.Runtime.InteropServices.cs:736:        public static void Write<T>(System.Span<byte> destination, ref T value) where T : struct { }
+System.Security.Cryptography.cs:170:        public static bool FixedTimeEquals(System.ReadOnlySpan<byte> left, System.ReadOnlySpan<byte> right) { throw null; }
+System.Security.Cryptography.cs:171:        public static void ZeroMemory(System.Span<byte> buffer) { }
+System.Security.Cryptography.cs:309:        public virtual bool TryCreateSignature(System.ReadOnlySpan<byte> hash, System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:310:        protected virtual bool TryHashData(System.ReadOnlySpan<byte> data, System.Span<byte> destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:311:        public virtual bool TrySignData(System.ReadOnlySpan<byte> data, System.Span<byte> destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:315:        public virtual bool VerifyData(System.ReadOnlySpan<byte> data, System.ReadOnlySpan<byte> signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm) { throw null; }
+System.Security.Cryptography.cs:317:        public virtual bool VerifySignature(System.ReadOnlySpan<byte> hash, System.ReadOnlySpan<byte> signature) { throw null; }
+System.Security.Cryptography.cs:483:        protected virtual bool TryHashData(System.ReadOnlySpan<byte> data, System.Span<byte> destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:484:        public virtual bool TrySignData(System.ReadOnlySpan<byte> data, System.Span<byte> destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:485:        public virtual bool TrySignHash(System.ReadOnlySpan<byte> hash, System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:489:        public virtual bool VerifyData(System.ReadOnlySpan<byte> data, System.ReadOnlySpan<byte> signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm) { throw null; }
+System.Security.Cryptography.cs:491:        public virtual bool VerifyHash(System.ReadOnlySpan<byte> hash, System.ReadOnlySpan<byte> signature) { throw null; }
+System.Security.Cryptography.cs:546:        protected virtual void HashCore(System.ReadOnlySpan<byte> source) { }
+System.Security.Cryptography.cs:551:        public bool TryComputeHash(System.ReadOnlySpan<byte> source, System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:552:        protected virtual bool TryHashFinal(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:581:        protected override void HashCore(System.ReadOnlySpan<byte> source) { }
+System.Security.Cryptography.cs:584:        protected override bool TryHashFinal(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:593:        protected override void HashCore(System.ReadOnlySpan<byte> source) { }
+System.Security.Cryptography.cs:596:        protected override bool TryHashFinal(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:607:        protected override void HashCore(System.ReadOnlySpan<byte> source) { }
+System.Security.Cryptography.cs:610:        protected override bool TryHashFinal(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:619:        protected override void HashCore(System.ReadOnlySpan<byte> source) { }
+System.Security.Cryptography.cs:622:        protected override bool TryHashFinal(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:632:        protected override void HashCore(System.ReadOnlySpan<byte> source) { }
+System.Security.Cryptography.cs:635:        protected override bool TryHashFinal(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:645:        protected override void HashCore(System.ReadOnlySpan<byte> source) { }
+System.Security.Cryptography.cs:648:        protected override bool TryHashFinal(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:671:        public void AppendData(System.ReadOnlySpan<byte> data) { }
+System.Security.Cryptography.cs:676:        public bool TryGetHashAndReset(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:807:        public static void Fill(System.Span<byte> data) { }
+System.Security.Cryptography.cs:810:        public virtual void GetBytes(System.Span<byte> data) { }
+System.Security.Cryptography.cs:812:        public virtual void GetNonZeroBytes(System.Span<byte> data) { }
+System.Security.Cryptography.cs:913:        public virtual bool TryDecrypt(System.ReadOnlySpan<byte> data, System.Span<byte> destination, System.Security.Cryptography.RSAEncryptionPadding padding, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:914:        public virtual bool TryEncrypt(System.ReadOnlySpan<byte> data, System.Span<byte> destination, System.Security.Cryptography.RSAEncryptionPadding padding, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:915:        protected virtual bool TryHashData(System.ReadOnlySpan<byte> data, System.Span<byte> destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:916:        public virtual bool TrySignData(System.ReadOnlySpan<byte> data, System.Span<byte> destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.RSASignaturePadding padding, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:917:        public virtual bool TrySignHash(System.ReadOnlySpan<byte> hash, System.Span<byte> destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.RSASignaturePadding padding, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:921:        public virtual bool VerifyData(System.ReadOnlySpan<byte> data, System.ReadOnlySpan<byte> signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.RSASignaturePadding padding) { throw null; }
+System.Security.Cryptography.cs:923:        public virtual bool VerifyHash(System.ReadOnlySpan<byte> hash, System.ReadOnlySpan<byte> signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.RSASignaturePadding padding) { throw null; }
+System.Security.Cryptography.cs:1088:        protected override void HashCore(System.ReadOnlySpan<byte> source) { }
+System.Security.Cryptography.cs:1091:        protected override bool TryHashFinal(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:1114:        protected override void HashCore(System.ReadOnlySpan<byte> source) { }
+System.Security.Cryptography.cs:1117:        protected override bool TryHashFinal(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:1140:        protected override void HashCore(System.ReadOnlySpan<byte> source) { }
+System.Security.Cryptography.cs:1143:        protected override bool TryHashFinal(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.cs:1166:        protected override void HashCore(System.ReadOnlySpan<byte> source) { }
+System.Security.Cryptography.cs:1169:        protected override bool TryHashFinal(System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Security.Cryptography.X509Certificates.cs:188:        public virtual bool TryGetCertHash(System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Span<byte> destination, out int bytesWritten) { throw null; }
+System.Text.cs:39:        public virtual void Convert(System.ReadOnlySpan<byte> bytes, System.Span<char> chars, bool flush, out int bytesUsed, out int charsUsed, out bool completed) { throw null; }
+System.Text.cs:44:        public virtual int GetCharCount(System.ReadOnlySpan<byte> bytes, bool flush) { throw null; }
+System.Text.cs:49:        public virtual int GetChars(System.ReadOnlySpan<byte> bytes, System.Span<char> chars, bool flush) { throw null; }
+System.Text.cs:121:        public virtual void Convert(System.ReadOnlySpan<char> chars, System.Span<byte> bytes, bool flush, out int charsUsed, out int bytesUsed, out bool completed) { throw null; }
+System.Text.cs:125:        public virtual int GetByteCount(System.ReadOnlySpan<char> chars, bool flush) { throw null; }
+System.Text.cs:129:        public virtual int GetBytes(System.ReadOnlySpan<char> chars, System.Span<byte> bytes, bool flush) { throw null; }
+System.Text.cs:218:        public virtual System.ReadOnlySpan<byte> Preamble { get { throw null; } }
+System.Text.cs:233:        public virtual int GetByteCount(System.ReadOnlySpan<char> chars) { throw null; }
+System.Text.cs:241:        public virtual int GetBytes(System.ReadOnlySpan<char> chars, System.Span<byte> bytes) { throw null; }
+System.Text.cs:249:        public virtual int GetCharCount(System.ReadOnlySpan<byte> bytes) { throw null; }
+System.Text.cs:255:        public virtual int GetChars(System.ReadOnlySpan<byte> bytes, System.Span<char> chars) { throw null; }
+System.Text.cs:271:        public string GetString(System.ReadOnlySpan<byte> bytes) { throw null; }
+System.Text.cs:328:        public System.Text.StringBuilder Append(System.ReadOnlySpan<char> value) { throw null; }
+System.Text.cs:360:        public void CopyTo(int sourceIndex, System.Span<char> destination, int count) { }
+System.Text.cs:362:        public bool Equals(System.ReadOnlySpan<char> span) { throw null; }
+System.Text.cs:375:        public System.Text.StringBuilder Insert(int index, System.ReadOnlySpan<char> value) { throw null; }
